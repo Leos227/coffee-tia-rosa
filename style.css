@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+/* Reset e base */
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6B4F4F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.8em;
+    margin: 0;
+    color: #FFDAB9;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FFDAB9;
+}
+
+/* Seções */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fdf6f0;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+/* Títulos */
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    color: #6B4F4F;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Produtos */
+.produtos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.produto {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.produto p {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* Formulário */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-family: 'Quicksand', sans-serif;
+}
+
+form button {
+    background-color: #6B4F4F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #8b6b6b;
+}
+
+/* QR Code */
+.qr-code {
+    width: 200px;
+    height: auto;
+    border: 4px solid #6B4F4F;
+    border-radius: 12px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    color: #f0e3e3;
+}
+
+h2, h3, nav a, button {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+
+header {
+    background-color: #6B4F4F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.produtos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.produto {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.produto p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+#wifi {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.qr-code {
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+    border: 4px solid #6B4F4F;
+    border-radius: 12px;
+}
